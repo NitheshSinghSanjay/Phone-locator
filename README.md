@@ -1,17 +1,18 @@
 # Phone-Locator
 
-# Problem Description
+Find location of a phone placed on the floor in a single RGB camera image. Use any pretrained neural networks available online or build a simple convolution nural network to predict the center coordinates of the phone. Use any DL frameworks/libraries of you choice (Tensorflow, Keras, PyTorch, etc.)
 
-This project goal is to find location of a phone dropped on the floor from a single RGB
-camera image. This is a regression problem which can be solved using a simple convolution nural network. Example of the image is shown below:
+# Dataset
+Dataset contains 129 rgb images of size 490 x 326 and the labels are in the labels.txt file. Each line in the labels.txt contains image path, x center coordinate, y center coordinate: img_path , x , y
 
+Example of an image from the dataset is shown below:
 
 <br /> <br />
 <img src="find_phone/0.jpg">
 <br /> <br />
-Left-top corner of the image
-is defined as (x, y) = (0, 0), left-bottom as (x, y) = (0, 1), right-top as (x, y) = (1, 0), and finally
-right-bottom corner as (x, y) = (1, 1). Goal is to find normalized coordinates
+Top-left corner of the image
+is defined as (x, y) = (0, 0), bottom-left as (x, y) = (0, 1), top-right as (x, y) = (1, 0), and finally
+bottom-right corner as (x, y) = (1, 1). Goal is to find normalized coordinates
 of the center of the phone. In the example above, the coordinates of the phone are
 approximately (x, y) = (0.83, 0.13).
 
@@ -27,6 +28,4 @@ approximately (x, y) = (0.83, 0.13).
     * Load the trained model -> Load the image -> predict location -> print result(location coordinate)
  
 
-# Dataset
-Dataset contains 129 rgb images of size 490 x 326 x 3 and the labels are in the labels.txt file. Each line of the labels.txt is composed of img_path , x , y separated by spaces: <br />
-img_path , x (coordinate of the phone), y (coordinate of the phone)
+
