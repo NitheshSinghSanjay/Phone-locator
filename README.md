@@ -21,12 +21,12 @@ approximately (x, y) = (0.83, 0.13).
 Project folder should have a dataset folder, train.py, infer.py. Create any aditional files if required.
 
 1. train.py 
-   * Should take the "dataset path" as a command line argument (Eg. python train.py <dataset-path>)
+   * Should take the "dataset path" as a command line argument (Eg. `$ python train.py <dataset-path>`)
    * Function(s) to Build & Load the Neural Network, Load the training data, Train, Save the trained model
    * Save the best trained model in the project folder
    
 2. infer.py
-    * Should take "image path" as a command line argument (Eg. python infer.py <image-path>)
+    * Should take "image path" as a command line argument (Eg. `$ python infer.py <image-path>`)
     * Function(s) to load a trained model, load an image, predict location, print result (location coordinate)
 
 
