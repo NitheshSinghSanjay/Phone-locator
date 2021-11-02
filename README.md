@@ -27,7 +27,7 @@ Project folder should have a dataset folder, train.py, infer.py. Create any adit
    
 2. infer.py
     * Should take "image path" as a command line argument (Eg. python infer.py <image-path>)
-    * Function(s) to load a trained model, load an image, predict location, print result(location coordinate)
+    * Function(s) to load a trained model, load an image, predict location, print result (location coordinate)
 
 
 
