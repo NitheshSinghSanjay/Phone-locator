@@ -18,7 +18,7 @@ approximately (x, y) = (0.83, 0.13).
 
 
 # Requirements
-Project folder should have a dataset folder, train.py, infer.py. Create any aditional files if required.
+Project folder should have a dataset folder, train.py, infer.py & README.md. Create any aditional files if required.
 
 1. train.py 
    * Should take the "dataset path" as a command line argument (Eg. `$ python train.py <dataset-path>`)
@@ -28,6 +28,11 @@ Project folder should have a dataset folder, train.py, infer.py. Create any adit
 2. infer.py
     * Should take "image path" as a command line argument (Eg. `$ python infer.py <image-path>`)
     * Function(s) to load a trained model, load an image, predict location, print result (location coordinate)
+
+3. README.md
+    * Describe the neural network, optimizer, loss function used in solving the problem.
+    * Performance metrics (Final accuracy, loss, etc)
+    * Instructions to run the code
 
 
 
