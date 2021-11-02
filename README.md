@@ -27,7 +27,7 @@ Project folder should have a dataset folder, train.py, infer.py & README.md. Cre
    
 2. infer.py
     * Should take "image path" as a command line argument (Eg. `$ python infer.py <image-path>`)
-    * Function(s) to load a trained model, load an image, predict location, print result (location coordinate)
+    * Function(s) to load a trained model, load an image, predict location, print results (location coordinates)
 
 3. README.md
     * Describe the neural network, optimizer, loss function used in solving the problem.
